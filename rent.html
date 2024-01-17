@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Page - Your House Search Website</title>
+   
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: relative; 
+        }
+
+        #logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: auto; 
+        }
+
+        main {
+            flex: 1;
+            padding: 1em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #555; 
+        }
+
+        .house-type {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .house-type img {
+            width: 800px;
+            height: auto; 
+            object-fit: cover;
+            border-radius: 20px;
+            border: 10px solid #555;
+            margin-bottom: 15px; 
+        }
+
+        .house-type-label {
+            font-size: 28px; 
+            margin-bottom: 5px; 
+            color: #333; 
+        }
+
+        .house-type-price {
+            font-size: 20px; 
+            color: #777; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: auto; 
+        }
+
+       
+        .house-type:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <header>
+        <img id="logo" src="logo2.jpg" alt="Logo">
+        <h1 style="margin-bottom: 5px;">Rent a Home</h1>
+       
+    </header>
+
+    <main>
+
+        <h2>Discover Your Ideal Rental Property</h2>
+
+        <section class="house-types-section">
+            <div class="house-type">
+                <img src="house2.jpg" alt="Bungalow">
+                <h3 class="house-type-label">Bungalow</h3>
+                <p class="house-type-price">RM 5000 - RM 9000 /month</p>
+            </div>
+            <div class="house-type">
+                <img src="house3.jpg" alt="Apartment">
+                <h3 class="house-type-label">Apartment</h3>
+                <p class="house-type-price">RM 2000 - RM5000 /month</p>
+            </div>
+            <div class="house-type">
+                <img src="house5.jpg" alt="Townhouse">
+                <h3 class="house-type-label">Townhouse</h3>
+                <p class="house-type-price">RM 2000 - 7000 /month</p>
+            </div>
+            <div class="house-type">
+                <img src="house4.jpg" alt="Condo">
+                <h3 class="house-type-label">Condo</h3>
+                <p class="house-type-price">RM 2000 - RM5000 /month</p>
+            </div>
+            <div class="house-type">
+                <img src="house6.jpg" alt="Single Family Home">
+                <h3 class="house-type-label">Single Family Home</h3>
+                <p class="house-type-price">RM 2000 - 5000 /month</p>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 Your House Search Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
